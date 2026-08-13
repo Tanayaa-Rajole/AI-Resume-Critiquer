@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pymupdf
+python-docx
+spacy
+google-generativeai
+pydantic
+python-dotenv
+pytest
