@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>AI Resume Critic</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>AI Resume Critic</h1>
+
+        <p>
+            Upload your resume and get an AI-powered critique.
+        </p>
+
+        <form id="resumeForm">
+
+            <input
+                type="file"
+                id="resume"
+                accept=".pdf,.docx"
+                required
+            >
+
+            <textarea
+                id="jobDescription"
+                placeholder="Paste the job description here..."
+            ></textarea>
+
+            <button type="submit">
+                Analyze Resume
+            </button>
+
+        </form>
+
+        <div id="loading"></div>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
